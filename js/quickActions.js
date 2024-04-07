@@ -17,9 +17,9 @@ document.addEventListener('DOMContentLoaded', function() {
         icon.className = 'action-icon';
         actionButton.appendChild(icon);
 
-        const title = document.createElement('div'); // Usamos 'div' para contener el texto
+        const title = document.createElement('div'); // Usamos 'div' para contener el texto s
         title.className = 'action-title';
-        title.innerHTML = action.title; // Usamos innerHTML para interpretar el HTML (como <br>)
+        title.innerHTML = action.title; // Usamos innerHTML para interpretar el HTML (como <br>) s   
         actionButton.appendChild(title);
 
         container.appendChild(actionButton);

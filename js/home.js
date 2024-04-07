@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const balance = document.createElement('span');
     balance.className = 'balance';
-    balance.textContent = '$0.00'; // Ejemplo de saldo
+    balance.textContent = '$0.00'; // Ejemplo de saldo s
     balanceInfo.appendChild(balance);
 
     // Barra de búsqueda

@@ -13,7 +13,7 @@ window.onload = function() {
     title.textContent = 'YapYak';
     app.appendChild(title);
 
-    // Redirigir a home.html después de 4 segundos
+    // Redirigir a home.html después de 4 segundos S
     setTimeout(() => {
         window.location.href = 'home.html';
     }, 4000);

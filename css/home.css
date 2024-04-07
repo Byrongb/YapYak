@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff; /* Fondo blanco */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #ffffff; /* Barra blanca */
+    box-shadow: 0 12px 25px rgba(255, 87, 185, 0.25);
+    margin: 15px 15px 15px 15px;
+}
+
+.balance-info {
+    display: flex;
+    align-items: center;
+}
+
+.wallet-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.balance {
+    font-size: 16px;
+    color: #333; /* Texto en color oscuro para contraste */
+}
+
+.search-bar {
+    flex-grow: 1;
+    padding: 8px 15px;
+    border-radius: 25px;
+    outline: none;
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.search-bar::placeholder {
+    color: #aaa; /* Color para el placeholder del buscador */
+}

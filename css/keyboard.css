@@ -16,7 +16,7 @@
     margin: 5px;
     cursor: pointer;
     font-size: 2rem;
-
+    color: black;
 }
 
 .call-button {
@@ -44,7 +44,6 @@
         gap: 1.5%;
         padding: 0% 8% 8% 8%;
         place-items: center;
-        overflow: auto; /* Muestra barras de desplazamiento solo si es necesario */
     }
     
     .keyboard-key {

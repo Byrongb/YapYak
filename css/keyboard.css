@@ -2,8 +2,9 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
-    padding: 40px;
+    padding: 10%;
     place-items: center;
+    height: 50%;
 }
 
 .keyboard-key {
@@ -33,4 +34,45 @@
 .call-button img {
     width: 40px; /* Ajusta el tamaño del ícono según sea necesario */
     height: 40px;
+}
+
+
+@media (max-width: 780px) {
+    #keyboard-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5%;
+        padding: 0% 8% 8% 8%;
+        place-items: center;
+        overflow: auto; /* Muestra barras de desplazamiento solo si es necesario */
+    }
+    
+    .keyboard-key {
+        width: 69px; /* Tamaño para hacerlos circulares */
+        height: 69px; /* Tamaño para hacerlos circulares */
+        border-radius: 50%; /* Hace el botón circular */
+        background-color: #f0f0f0;
+        border: 1px solid #d4d4d4;
+        margin: 5px;
+        cursor: pointer;
+        font-size: 2rem;
+    
+    }
+    
+    .call-button {
+        grid-column: 1 / 4; /* Ocupa todo el ancho del teclado */
+        width: 65px; /* Tamaño del botón de llamar */
+        height: 65px; /* Tamaño del botón de llamar */
+        border-radius: 50%; /* Hace el botón circular */
+        background-color: #4CAF50; /* Color verde para el botón de llamar */
+        color: white;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .call-button img {
+        width: 40px; /* Ajusta el tamaño del ícono según sea necesario */
+        height: 40px;
+    }
 }

@@ -8,15 +8,22 @@
 }
 
 .keyboard-key {
-    width: 82px; /* Tamaño para hacerlos circulares */
-    height: 82px; /* Tamaño para hacerlos circulares */
+    width: 82px; /* O el valor en % o vw para ser responsive */
+    height: 82px; /* O el valor en % o vw para mantener el aspecto circular */
     border-radius: 50%; /* Hace el botón circular */
     background-color: #f0f0f0;
     border: 1px solid #d4d4d4;
     margin: 5px;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 2rem;
     color: black;
+    font-size: 2rem; /* Ajusta el tamaño del texto según sea necesario */
+    color: #333; /* Color del texto */
+    text-align: center;
+    vertical-align: middle;
 }
 
 .call-button {

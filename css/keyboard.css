@@ -36,11 +36,17 @@
     font-size: 16px;
     border: none;
     cursor: pointer;
+    text-align: center;
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .call-button img {
     width: 40px; /* Ajusta el tamaño del ícono según sea necesario */
     height: 40px;
+
 }
 
 
